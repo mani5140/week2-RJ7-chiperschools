@@ -1,0 +1,21 @@
+In react also events are same as javascript
+but the difference is that we use camelCase syntax
+
+for example, 
+           in javascript we use "onclick()"
+           but in react "onClick()"
+
+In javascript, 
+             with in " __ " we write the function or else 
+             but in react we write curly brackets {__}.
+
+syntax,
+function Football() {
+  const shoot = () => {
+    alert("Great Shot!");
+  }
+
+  return (
+    <button onClick={shoot}>Take the shot!</button>
+  );
+}
